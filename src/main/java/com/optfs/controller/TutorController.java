@@ -54,9 +54,9 @@ public class TutorController {
 	}
 	
 	
-	@GetMapping("/loginTutor/{email}/{pass}")
+	/*@GetMapping("/loginTutor/{email}/{pass}")
 	public Tutor loginTutor(@PathVariable String email, @PathVariable String pass) throws NullUserFound
 	{
 		return tutorService.loginTutor(email, pass);
-	}
+	}*/
 }

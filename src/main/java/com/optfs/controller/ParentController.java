@@ -53,9 +53,9 @@ public class ParentController {
 		return parentService.deleteParent(parent);
 	}
 	
-	@GetMapping("/loginParent/{email}/{password}")
+	/*@GetMapping("/loginParent/{email}/{password}")
 	public Parent loginParent(@PathVariable String email, @PathVariable String password) throws NullUserFound
 	{
 		return parentService.loginParent(email, password);
-	}
+	}*/
 }

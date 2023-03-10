@@ -52,11 +52,11 @@ public class AdminController {
 		return adminService.deleteAdmin(admin);
 	}
 	
-	@GetMapping("/loginAdmin/{email}/{password}")
+	/*@GetMapping("/loginAdmin/{email}/{password}")
 	public Admin loginAdmin(@PathVariable String email, @PathVariable String password ) throws NullUserFound
 	{
 		
 		return adminService.loginAdmin(email, password);
-	}
+	}*/
 	
 }
